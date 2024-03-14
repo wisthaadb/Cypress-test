@@ -15,11 +15,5 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
-beforeEach(() => {
-    cy.visit('https://practicetestautomation.com/practice-test-login/')
-    cy.viewport(1024, 768)
-});
-
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
